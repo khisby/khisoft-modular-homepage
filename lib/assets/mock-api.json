@@ -1,0 +1,74 @@
+{
+        "components": [
+                {
+                        "type": "grid-feature-list",
+                        "name": "feature-list",
+                        "data": {
+                                "items": [
+                                        {
+                                                "title": "Feature 1",
+                                                "iconUrl": "https://khisby.github.io/assets/images/khisoft.png",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "title": "Feature 2",
+                                                "iconUrl": "https://khisby.github.io/assets/images/khisoft.png",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "title": "Feature 3",
+                                                "iconUrl": "https://khisby.github.io/assets/images/khisoft.png",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "title": "Feature 4",
+                                                "iconUrl": "https://khisby.github.io/assets/images/khisoft.png",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "title": "Feature 5",
+                                                "iconUrl": "https://khisby.github.io/assets/images/khisoft.png",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "title": "Feature 6",
+                                                "iconUrl": "https://khisby.github.io/assets/images/khisoft.png",
+                                                "redirectionUrl": "khisoft://feature"
+                                        }
+                                ]
+                        }
+                },
+                {
+                        "type": "grid-gallery",
+                        "name": "gallery",
+                        "data": {
+                                "items": [
+                                        {
+                                                "title": "Feature 1",
+                                                "imgUrl": "http://khisoft.id/logo.png",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "title": "Feature 2",
+                                                "imgUrl": "http://khisoft.id/logo.png",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "title": "Feature 3",
+                                                "imgUrl": "http://khisoft.id/logo.png",
+                                                "redirectionUrl": "khisoft://feature"
+                                        }
+                                ]
+                        }
+                },
+                {
+                        "type": "banner-full",
+                        "name": "banner-promotion",
+                        "data": {
+                                "title": "Flash Sale 50% Off Today",
+                                "imgUrl": "https://khisby.github.io/assets/images/khisoft.png",
+                                "redirectionUrl": "khisoft://feature"
+                        }
+                }
+        ]
+}
