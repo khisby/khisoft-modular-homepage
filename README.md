@@ -1,17 +1,3 @@
-# khisoft_homepage_modular
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# khisoft-modular-homepage
+# khisoft-modular-homepage-flutter
+from this [mock api file](lib/assets/mock-api.json) can generate view like this:  
+![image](https://github.com/khisby/khisoft-modular-homepage/assets/24775167/ec20b987-f9b9-4e17-880f-2a4e425e4cf2)
