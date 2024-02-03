@@ -1,11 +1,12 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, avoid_print
 import "package:flutter/material.dart";
 
 class GridFeatureList extends StatefulWidget {
   final String name;
+  final String title;
   final Map<String, dynamic> data;
 
-  const GridFeatureList({Key? key, required this.name, required this.data})
+  const GridFeatureList(
+      {Key? key, required this.name, required this.title, required this.data})
       : super(key: key);
 
   @override

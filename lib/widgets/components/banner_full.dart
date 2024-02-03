@@ -1,11 +1,12 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, avoid_print
 import "package:flutter/material.dart";
 
 class BannerFull extends StatefulWidget {
   final String name;
+  final String title;
   final Map<String, dynamic> data;
 
-  const BannerFull({Key? key, required this.name, required this.data})
+  const BannerFull(
+      {Key? key, required this.name, required this.title, required this.data})
       : super(key: key);
 
   @override
@@ -34,9 +35,9 @@ class BannerFullState extends State<BannerFull> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              data.title != ""
+              widget.title != ""
                   ? Text(
-                      data.title,
+                      widget.title,
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.w600,
@@ -63,18 +64,13 @@ class BannerFullState extends State<BannerFull> {
 }
 
 class Banner {
-  final String title;
   final String imgUrl;
   final String redirectionUrl;
 
-  Banner(
-      {required this.title,
-      required this.imgUrl,
-      required this.redirectionUrl});
+  Banner({required this.imgUrl, required this.redirectionUrl});
 
   factory Banner.fromJson(Map<String, dynamic> json) {
     return Banner(
-        title: json['title'] ?? "",
         imgUrl: json['imgUrl'] ?? "",
         redirectionUrl: json['redirectionUrl'] ?? "");
   }

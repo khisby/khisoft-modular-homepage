@@ -1,7 +1,7 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:khisoft_homepage_modular/widgets/components/banner_full.dart';
+import 'package:khisoft_homepage_modular/widgets/components/banner_list.dart';
 import 'package:khisoft_homepage_modular/widgets/components/grid_feature_list.dart';
 import 'package:flutter/material.dart';
 
@@ -24,6 +24,7 @@ Future<List<Widget>> getComponents(String path) async {
   List<Widget> widgets = [];
   for (var component in components) {
     String name = component['name'];
+    String title = component['title'] ?? '';
     Map<String, dynamic> data = component['data'];
 
     switch (component['type']) {
@@ -31,6 +32,7 @@ Future<List<Widget>> getComponents(String path) async {
         widgets.add(
           GridFeatureList(
             name: name,
+            title: title,
             data: data,
           ),
         );
@@ -47,6 +49,16 @@ Future<List<Widget>> getComponents(String path) async {
         widgets.add(
           BannerFull(
             name: name,
+            title: title,
+            data: data,
+          ),
+        );
+        break;
+      case 'banner-list':
+        widgets.add(
+          BannerList(
+            name: name,
+            title: title,
             data: data,
           ),
         );

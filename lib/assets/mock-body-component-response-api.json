@@ -1,8 +1,18 @@
 {
         "components": [
                 {
+                        "type": "banner-full",
+                        "name": "banner-promotion",
+                        "title": "Flash Sale 50% Off Today",
+                        "data": {
+                                "imgUrl": "https://khisby.github.io/assets/images/portofolio6.png",
+                                "redirectionUrl": "khisoft://feature"
+                        }
+                },
+                {
                         "type": "grid-feature-list",
                         "name": "feature-list",
+                        "title": "",
                         "data": {
                                 "items": [
                                         {
@@ -41,6 +51,7 @@
                 {
                         "type": "grid-gallery",
                         "name": "gallery",
+                        "title": "",
                         "data": {
                                 "items": [
                                         {
@@ -62,12 +73,28 @@
                         }
                 },
                 {
-                        "type": "banner-full",
-                        "name": "banner-promotion",
+                        "type": "banner-list",
+                        "name": "new-feature-list",
+                        "title": "Cobain, Ada yang baru nih!",
                         "data": {
-                                "title": "Flash Sale 50% Off Today",
-                                "imgUrl": "https://khisby.github.io/assets/images/khisoft.png",
-                                "redirectionUrl": "khisoft://feature"
+                                "items": [
+                                        {
+                                                "imgUrl": "https://via.placeholder.com/150",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "imgUrl": "https://via.placeholder.com/150",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "imgUrl": "https://via.placeholder.com/150",
+                                                "redirectionUrl": "khisoft://feature"
+                                        },
+                                        {
+                                                "imgUrl": "https://via.placeholder.com/150",
+                                                "redirectionUrl": "khisoft://feature"
+                                        }
+                                ]
                         }
                 }
         ]
